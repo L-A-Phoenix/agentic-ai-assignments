@@ -1,0 +1,12 @@
+.env
+.venv
+.lvenv
+__pycache__/
+*.pyc
+.env
+memory/
+.cache/
+.env
+**/.env
+.venv/
+.lvenv/

@@ -1,0 +1,15 @@
+.env
+memory/
+.cache/
+__pycache__/
+.pytest_cache/
+*.pyc
+memory_examples/ch07_chroma_demo/
+memory_examples/ch07_pdf_store/
+memory_examples/ch07_hot_store.db
+memory_examples/whitepaper_text/
+memory_examples/neo4j_data/
+memory_examples/.venv/
+
+.venv/
+.lvenv/

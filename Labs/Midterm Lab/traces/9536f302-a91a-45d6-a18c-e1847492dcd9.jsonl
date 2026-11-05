@@ -1,0 +1,4 @@
+{"timestamp": "2026-11-05T17:31:48.136585+00:00", "event": "memory", "operation": "read", "memory_type": "working", "details": {"preferences": 0}}
+{"timestamp": "2026-11-05T17:31:48.668525+00:00", "event": "memory", "operation": "read", "memory_type": "episodic", "details": {"query": "What have I been listening to recently?"}}
+{"timestamp": "2026-11-05T17:31:52.299800+00:00", "event": "tool_call", "step": 1, "tool_name": "get_recent_listens", "arguments": {}, "result": "{\"success\": false, \"data\": null, \"error\": \"ListenBrainz listens request failed (HTTP 404).\", \"error_category\": \"resource\"}", "latency_ms": 971.1568999337032}
+{"timestamp": "2026-11-05T17:31:54.821659+00:00", "event": "termination", "status": "stuck", "reason": "Failed to parse model response."}

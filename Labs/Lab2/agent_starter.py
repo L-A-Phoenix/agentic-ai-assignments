@@ -33,7 +33,7 @@ def main(args):
     openrouter_api_key = os.environ.get("OPENROUTER_API_KEY")
 
     # TODO 4: Set the model. You may reuse the model you selected in Lab 1.
-    model = args[0] if args else "inclusionai/ling-3.0-flash-fin:free"
+    model = args[0] if args else "inclusionai/ling-3.0-flash-fin"
 
     SYSTEM_PROMPT = """
     You are a helpful research agent.
@@ -115,7 +115,7 @@ def main(args):
             # Execute it with the supplied arguments.
             tool_name = call["function"]["name"]
             tool_argument = call["function"]["arguments"]
-
+            print(f"AFAKLJSLKJAF {tool_argument}sdfsdfsdfdsfsddsfsdf")
             if tool_name == "calculator":
                 tool_result = calculator(tool_argument)
             elif tool_name == "search_web":

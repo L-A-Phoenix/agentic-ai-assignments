@@ -1,0 +1,2 @@
+{"timestamp": "2026-11-05T16:54:26.140627+00:00", "event": "memory", "operation": "read", "memory_type": "working", "details": {"preferences": 0}}
+{"timestamp": "2026-11-05T16:54:26.803671+00:00", "event": "memory", "operation": "read", "memory_type": "episodic", "details": {"query": "Who is SZA"}}

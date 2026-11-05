@@ -1,0 +1,2 @@
+{"timestamp": "2026-11-05T10:25:55.716898+00:00", "event": "memory", "operation": "read", "memory_type": "working", "details": {"preferences": 0}}
+{"timestamp": "2026-11-05T10:25:56.196829+00:00", "event": "memory", "operation": "read", "memory_type": "episodic", "details": {"query": "What is 2+2"}}

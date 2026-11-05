@@ -1,0 +1,6 @@
+{"timestamp": "2026-11-05T18:20:29.773307+00:00", "event": "memory", "operation": "read", "memory_type": "working", "details": {"preferences": 0}}
+{"timestamp": "2026-11-05T18:20:30.343032+00:00", "event": "memory", "operation": "read", "memory_type": "episodic", "details": {"query": "Find me a song called \"Blinding Lights\""}}
+{"timestamp": "2026-11-05T18:20:35.309113+00:00", "event": "termination", "status": "policy_halt", "reason": "LB Radio request failed (HTTP 401)"}
+{"timestamp": "2026-11-05T18:20:35.313698+00:00", "event": "tool_call", "step": 1, "tool_name": "lb_radio", "arguments": {"query": "Blinding Lights", "mode": "medium"}, "result": null, "latency_ms": 1027.252799947746}
+{"event": "quality_check", "quality": "low", "issues": ["Quality check failed"]}
+{"timestamp": "2026-11-05T18:20:41.253264+00:00", "event": "memory", "operation": "write", "memory_type": "episodic", "details": {"topics": [], "quality": "low"}}
